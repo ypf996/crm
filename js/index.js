@@ -41,7 +41,7 @@ $(function (){
             <div class="itemBox" text="部门管理">
                 <h3>
                     <i class="iconfont icon-bumen"></i>
-                    员工管理
+                    部门管理
                 </h3>
                 <nav class="item">
                     <a href="page/departmentlist.html" target="iframeBox">部门列表</a>
@@ -55,7 +55,7 @@ $(function (){
             <div class="itemBox" text="职位管理">
                 <h3>
                     <i class="iconfont icon-zhiwei"></i>
-                    员工管理
+                    职位管理
                 </h3>
                 <nav class="item">
                     <a href="page/joblist.html" target="iframeBox">职位列表</a>
@@ -69,11 +69,11 @@ $(function (){
             <div class="itemBox" text="客户管理">
                 <h3>
                     <i class="iconfont icon-kehu"></i>
-                    员工管理
+                    客户管理
                 </h3>
                 <nav class="item">
-                    <a href="page/customerlist.html" target="iframeBox">我的客户</a>
-                    <a href="page/customerlist.html" target="iframeBox">全部客户</a>
+                    <a href="page/customerlist.html?lx=my" target="iframeBox">我的客户</a>
+                    <a href="page/customerlist.html?lx=all" target="iframeBox">全部客户</a>
                     <a href="page/customeradd.html" target="iframeBox">新增客户</a>
                 </nav>
             </div>        
